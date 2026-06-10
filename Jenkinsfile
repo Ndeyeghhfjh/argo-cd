@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Agent-1' }
+    agent { label 'Agent-1' } # agent installé
 
     triggers {
         githubPush()
