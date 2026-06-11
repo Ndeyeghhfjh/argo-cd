@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        RECEIVER_EMAIL = 'astoudieng941@gmail.com'
+        RECEIVER_EMAIL = 'astoudieng941@gmail.com'  #mail de reception
         PROJECT_NAME   = 'ArgoCD'
         SEMGREP_RULES  = 'p/owasp-top-ten p/secrets p/security-audit'
     }
